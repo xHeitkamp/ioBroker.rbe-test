@@ -1,0 +1,100 @@
+{
+    "common": {
+        "name": "rbe-test",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "titleLang": {
+            "en": "TEST",
+            "de": "PRÜFEN",
+            "ru": "ТЕСТ",
+            "pt": "TESTE",
+            "nl": "TEST",
+            "fr": "TEST",
+            "it": "TEST",
+            "es": "PRUEBA",
+            "pl": "TEST",
+            "zh-cn": "测试"
+        },
+        "desc": {
+            "en": "Test bench",
+            "de": "Prüfstand",
+            "ru": "Испытательный стенд",
+            "pt": "Bancada",
+            "nl": "Testbank",
+            "fr": "Banc d'essai",
+            "it": "Banco di prova",
+            "es": "Banco de pruebas",
+            "pl": "Stanowisko testowe",
+            "zh-cn": "试验台"
+        },
+        "authors": [
+            "xHeitkamp <robin@behlke.tech>"
+        ],
+        "keywords": [
+            "ioBroker",
+            "template",
+            "Smart Home",
+            "home automation"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "rbe-test.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/xHeitkamp/ioBroker.rbe-test/master/admin/rbe-test.png",
+        "readme": "https://github.com/xHeitkamp/ioBroker.rbe-test/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "misc-data",
+        "compact": true,
+        "connectionType": "cloud",
+        "dataSource": "poll",
+        "materialize": true,
+        "dependencies": [
+            {
+                "js-controller": ">=2.0.0"
+            }
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": [
+        {
+            "_id": "info",
+            "type": "channel",
+            "common": {
+                "name": "Information"
+            },
+            "native": {}
+        },
+        {
+            "_id": "info.connection",
+            "type": "state",
+            "common": {
+                "role": "indicator.connected",
+                "name": "Device or service connected",
+                "type": "boolean",
+                "read": true,
+                "write": false,
+                "def": false
+            },
+            "native": {}
+        }
+    ]
+}
