@@ -3,12 +3,16 @@
     Placeholder for the next version (at the beginning of the line):
     ## **WORK IN PROGRESS**
 -->
+## **WORK IN PROGRESS**
+* blubb
+
 ## 0.0.6 (2023-03-04)
 * changed github actions
 
 ## 0.0.5 (2023-03-04)
 * asdasdf
-* ## 0.0.4 (2023-03-04)
+
+## 0.0.4 (2023-03-04)
 * jknsdafbjklfads
 
 ## 0.0.3 (2023-03-04)

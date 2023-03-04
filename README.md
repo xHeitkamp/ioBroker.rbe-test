@@ -18,6 +18,9 @@ Test bench
 ## Developer manual
 This section is intended for the developer. It can be deleted later
 
+## Changelog
+Please read the [CHANGELOG.md](CHANGELOG.md) for further information
+
 ### Getting started
 
 You are almost done, only a few steps left:
