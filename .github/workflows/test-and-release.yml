@@ -82,6 +82,7 @@ jobs:
 
    # Deploys the final package to NPM
     deploy:
+        permissions: write-all
         #needs: [adapter-tests]
 
         # Trigger this step only when a commit on any branch is tagged with a version number
