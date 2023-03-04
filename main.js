@@ -55,9 +55,11 @@ class RbeTest extends utils.Adapter {
         const timeAPI = 'https://www.timeapi.io/api/Time/current/zone?timeZone=Europe/Berlin';
         this.runInterval = setInterval(async () => {
             try {
+                // @ts-ignore
                 const response = await axios.get(timeAPI);
                 await this.setStateAsync('dateTime', { val: response.data.dateTime, ack: true });
             } catch (error) {
+                // @ts-ignore
                 this.log.error(error);
             }
         }, 2000);
