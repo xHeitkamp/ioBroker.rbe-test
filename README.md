@@ -1,11 +1,10 @@
-![Logo](admin/rbe-test.png)
+<img src="admin/rbe-test.png" height="100">
 # ioBroker.rbe-test
 
 [![NPM version](https://img.shields.io/npm/v/iobroker.rbe-test.svg)](https://www.npmjs.com/package/iobroker.rbe-test)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.rbe-test.svg)](https://www.npmjs.com/package/iobroker.rbe-test)
 ![Number of Installations (latest)](https://iobroker.live/badges/rbe-test-installed.svg)
 ![Number of Installations (stable)](https://iobroker.live/badges/rbe-test-stable.svg)
-[![Dependency Status](https://img.shields.io/david/xHeitkamp/iobroker.rbe-test.svg)](https://david-dm.org/xHeitkamp/iobroker.rbe-test)
 
 [![NPM](https://nodei.co/npm/iobroker.rbe-test.png?downloads=true)](https://nodei.co/npm/iobroker.rbe-test/)
 
