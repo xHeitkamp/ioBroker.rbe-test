@@ -18,8 +18,6 @@ Test bench
 ## Developer manual
 This section is intended for the developer. It can be deleted later
 
-### **WORK IN PROGRESS**
-
 ### Getting started
 
 You are almost done, only a few steps left:
@@ -104,6 +102,7 @@ Please refer to the [`dev-server` documentation](https://github.com/ioBroker/dev
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
 ### 0.0.2 (2023-03-04)
 * (xHeitkamp) initial release
 
